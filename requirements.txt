@@ -1,0 +1,11 @@
+streamlit
+python-dotenv
+pymongo[srv]
+openai
+qdrant-client
+sentence-transformers
+transformers
+torch
+tqdm
+PyPDF2
+pypdf
