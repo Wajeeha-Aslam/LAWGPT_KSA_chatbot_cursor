@@ -3,6 +3,50 @@
 ## 🎯 **System Overview**
 LAWGPT KSA is a **comprehensive legal assistant** that combines **PDF law articles**, **legal cases**, and **AI-powered responses** with **smart filtering** for different law types in Saudi Arabia.
 
+## 🚀 **Quick Start (GitHub)**
+
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/YOUR_USERNAME/LAWGPT_KSA.git
+cd LAWGPT_KSA
+```
+
+### **2. Set Up Environment**
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### **3. Configure API Keys**
+```bash
+# Copy the sample configuration file
+cp env_config_sample.py env_config.py
+
+# Edit env_config.py with your actual API keys:
+# - Azure OpenAI credentials
+# - Qdrant Cloud credentials
+# - MongoDB credentials (optional)
+```
+
+### **4. Run the Application**
+```bash
+streamlit run app.py
+```
+
+### **5. Access the Web Interface**
+Open your browser and go to: `http://localhost:8501`
+
+---
+
 ---
 
 ## 🏗️ **System Architecture**
