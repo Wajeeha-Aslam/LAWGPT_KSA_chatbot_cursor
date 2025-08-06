@@ -10,7 +10,7 @@ import hashlib
 from tqdm import tqdm
 
 class PDFProcessor:
-    def __init__(self, pdf_dir: str = "../../LAWGPT_KSA_data"):
+    def __init__(self, pdf_dir: str = r"C:\Users\pc\Desktop\Internship 2025\LAWGPT_KSA\LAWGPT_KSA_data"):
         self.pdf_dir = Path(pdf_dir)
         self.processed_docs = []
     
